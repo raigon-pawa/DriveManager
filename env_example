@@ -1,0 +1,7 @@
+CLIENT_ID=<Google Cloud OAuth 2.0 Client ID>
+CLIENT_SECRET=<Google Cloud OAuth 2.0 Client Secret>
+REDIRECT_URI=<Google Cloud OAuth 2.0 Callback>
+SESSION_SECRET=<Any Random 64 Characters Secret>
+MONGO_URI=<MongoDB Uri>
+DATABASE_NAME=<MongoDB Database Name>
+COLLECTION_NAME=<MongoDB Collection Name>
