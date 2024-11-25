@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Drive Manager</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Google Drive Manager</h1>
+      </header>
+
+      <section class="accounts-section">
+        <h2>Google Accounts</h2>
+        <div class="accounts-controls">
+          <select id="accountsSelect"></select>
+          <button id="addAccount" class="btn">Add Account</button>
+          <button id="removeAccount" class="btn danger">Remove Account</button>
+        </div>
+      </section>
+
+      <section class="files-section">
+        <h2>Files and Folders</h2>
+        <div class="search-box">
+          <input type="text" id="searchFiles" placeholder="Search files and folders...">
+        </div>
+        <div class="files-header">
+          <div class="file-name">Name</div>
+          <div class="file-size">Size</div>
+        </div>
+        <div id="filesList" class="files-list"></div>
+      </section>
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+    <script src="https://accounts.google.com/gsi/client"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "name": "DriveManager",
+  "description": "A simple Multi Google Drive Manager written in Nodejs and Vanilla HTML UI",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raigon-pawa/DriveManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raigon-pawa/DriveManager/issues"
+  },
+  "homepage": "https://github.com/raigon-pawa/DriveManager#readme",
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "googleapis": "^144.0.0",
+    "mongodb": "^6.10.0"
+  }
+}
